@@ -1,0 +1,9 @@
+name: Prueba testing
+on:
+  branches: [ "master" ]
+jobs:
+  build:
+    runs-on: ubuntu lastest
+    steps:
+    - name: Comprobar
+      uses: actions/checkout@v2
